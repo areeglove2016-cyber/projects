@@ -1,0 +1,228 @@
+*{
+	margin: 0;
+	padding:0;
+	} 
+    body{
+        font-family: 'Times New Roman', Times, serif;
+    }
+ header .menu {
+        background-color: white;
+        position: fixed;
+        z-index: 9999;
+        width: 100%;
+       padding-bottom: 5px;
+    }
+header .menu   #go{
+    font-size: 15px;
+    letter-spacing: 4px;
+    display: inline-block;
+   padding-top: 5px;
+   line-height: 30px;
+   margin-top: 10px;
+  margin-left: 30px;
+}
+header .menu #go:hover{
+    background-color: rgba(128, 128, 128, 0.384);
+      padding: 8px 16px;
+    cursor: pointer;
+}
+header .menu nav{
+    line-height: 30px;
+	float: right;
+    padding-right: 31px;
+}
+header .menu nav ul li{
+   list-style: none;
+   display: inline-block;
+   padding-top: 8px;
+   padding-left: 32px;
+   margin-top: 8px;
+}
+header .menu nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+header .menu nav ul li :hover{
+    background-color: rgba(128, 128, 128, 0.384);
+    padding: 8px 16px ;
+    cursor: pointer;
+}
+.slider{
+	overflow: hidden;
+	padding-top: 60px;
+}
+header  .slider img{
+    width: 1350px;
+    height: 550px;
+}
+header .slider .word{
+  position:absolute;
+ margin-left: 20px;
+ margin-top: -60px;
+ letter-spacing: 5px;
+ opacity: 0.5;
+ font-weight: normal;
+}
+.ima{
+    border-radius: 10px;
+    width: 500px; 
+    height: 600px;
+}
+section .im{
+    padding-top: 77px;
+    padding-left: 150px;
+    opacity: 0.7;  
+}
+section .pag{
+    padding-left: 700px;
+    margin-top: -573px;
+}
+section h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 35px;
+    font-weight: normal;
+    margin-left: -104px;
+}
+section h5{
+    padding-top: 35px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-left: -123px;
+    font-weight: normal;
+    font-size: 17px;
+}
+section .one{
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-left: -4px;
+    margin-top: 0px;
+    padding-right: 156px;
+    line-height: 1.5;
+}
+span{
+    background-color: #f1f1f1;
+    padding: 0px 10px;
+}
+section .two{
+    color:#757575;
+    font-size: 18px;
+    padding-right: 156px;
+}
+.ph{
+    margin-top: 180px;
+    margin-bottom: 100px;
+    border: 0;
+    border-top: 1px solid #eee;
+    margin-left: 130px;
+    margin-right: 112px
+}
+h2{
+    padding-left: 310px;
+    font-size: 33px;
+    font-weight: normal;
+    letter-spacing: 4px;
+    padding-bottom: 55px
+}
+h4{
+    font-weight: normal;
+    font-size: 20px;
+    padding-left: 157px;
+    letter-spacing: 6px;
+}
+.tot{
+    padding-left: 153px;
+    padding-top: 21px;
+    color: #757575;
+    padding-bottom: 35px;
+}
+.ma{
+    border-radius: 20px;
+    width: 497px;
+    height: 712px;
+}
+section .ma{
+    opacity: 0.7; 
+    float: right;
+    margin-top: -675px;
+    padding-right: 122px;
+}
+.rh{
+    margin-top: 127px;
+    margin-bottom: 99px;
+    border: 0;
+    border-top: 1px solid #eee;
+    margin-left: 130px;
+    margin-right: 112px
+}
+h3{
+    margin-left: 170px;
+    letter-spacing: 3px;
+    font-size: 33px;
+    font-weight: normal;
+    padding-bottom: 50px
+}
+.us{
+    padding-left: 173px;
+    margin-right: 189px;
+    font-size: 14px;
+    padding-bottom: 22px;
+    line-height: 1.5;
+}
+.ny{
+    color: #607d8b;
+    padding-left: 167px;
+    padding-bottom: 18px;
+    font-weight: bold;
+}
+.here{
+    padding-left: 166px;
+    font-size: 15px;
+    padding-bottom: 30px
+}
+.fo{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin-left: -5px;
+    margin-right: 120px;
+    padding-bottom: 31px
+}
+form{
+    padding-left: 167px
+}
+input{
+    padding-bottom: 17px;
+    padding-top: 17px;
+    margin-bottom: 8px;
+    border: none;
+    font-size: 16px;
+    width: 90%;
+    font-family: auto;
+    border-bottom: 1px solid #ccc;
+    padding-left: 10px;
+}
+button{
+    padding-bottom: 9px;
+    margin-top: 21px;
+    border: none;
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: auto;
+    padding-left: 10px;
+    padding-right: 14px;
+    cursor: pointer;
+}
+footer{
+    background-color: #F1F1F1;
+    text-align: center;
+    margin-top: 91px;
+    padding-top: 53px;
+    padding-bottom: 54px;
+    font-size: 15px
+}
+.link{
+    color: black;
+}
+.link:hover{
+    color: #059862;
+}
